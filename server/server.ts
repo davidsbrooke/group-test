@@ -29,7 +29,7 @@ app.get('/*', (req, res, next) => {
 });
 
 
-app.use('/api/v1/list', require ('/api/todo/routes'));
+app.use('/api/v1/list', require ('./api/todo/routes'));
 
 //if path starts/client, /bower_components or /api send a 404
 app.get(/\/(client|bower_components|api).{0,}/, (req, res, next) => {
