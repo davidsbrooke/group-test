@@ -6,7 +6,7 @@
     "davidsbrooke"
   ],
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/davidsbrooke/group-test",
   "ignore": [
     "**/.*",
     "node_modules",
