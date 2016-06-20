@@ -18,7 +18,19 @@
     "serve-static": "registry:dt/serve-static#0.0.0+20160606155157"
 =======
     "express": "registry:dt/express#4.0.0+20160317120654",
+<<<<<<< HEAD
     "mongoose": "registry:dt/mongoose#3.8.5+20160614090725"
 >>>>>>> 120f19f13564564f3858d490228b6d8361c2eab8
+=======
+    "express-jwt": "registry:dt/express-jwt#0.0.0+20160319033732",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#0.0.0+20160602151406",
+    "express-unless": "registry:dt/express-unless#0.0.0+20160317120654",
+    "jquery": "registry:dt/jquery#1.10.0+20160620094458",
+    "jsonwebtoken": "registry:dt/jsonwebtoken#0.0.0+20160521152605",
+    "mime": "registry:dt/mime#0.0.0+20160316155526",
+    "mongoose": "registry:dt/mongoose#3.8.5+20160614090725",
+    "node": "registry:dt/node#6.0.0+20160613154055",
+    "serve-static": "registry:dt/serve-static#0.0.0+20160606155157"
+>>>>>>> f423f154176def29c64a498753b2ce7c92983745
   }
 }
