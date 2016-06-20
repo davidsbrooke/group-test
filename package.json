@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./server/server",
+    "test": "mocha --timeout 90 --reporter spec --recursive ./**/*.spec.js",
+    "devstart": "open \"http://localhost:3000\" && nodemon ./server/server -w server"
   },
   "author": "",
   "license": "ISC",
