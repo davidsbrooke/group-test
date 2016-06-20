@@ -1,7 +1,7 @@
 *.js
 !*.spec.js
 
-/node-modules
+/node_modules
 /bower_components
 /typings
 
