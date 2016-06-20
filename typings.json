@@ -4,6 +4,7 @@
   "globalDependencies": {
     "angular": "registry:dt/angular#1.5.0+20160619025852",
     "angular-resource": "registry:dt/angular-resource#1.5.0+20160613142217",
+<<<<<<< HEAD
     "angular-ui-router": "registry:dt/angular-ui-router#1.1.5+20160521151413",
     "express": "registry:dt/express#4.0.0+20160317120654",
     "express-jwt": "registry:dt/express-jwt#0.0.0+20160319033732",
@@ -15,5 +16,9 @@
     "mongoose": "registry:dt/mongoose#3.8.5+20160614090725",
     "node": "registry:dt/node#6.0.0+20160613154055",
     "serve-static": "registry:dt/serve-static#0.0.0+20160606155157"
+=======
+    "express": "registry:dt/express#4.0.0+20160317120654",
+    "mongoose": "registry:dt/mongoose#3.8.5+20160614090725"
+>>>>>>> 120f19f13564564f3858d490228b6d8361c2eab8
   }
 }
