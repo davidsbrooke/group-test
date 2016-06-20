@@ -1,6 +1,6 @@
 import * as express from 'express';
 import * as mongoose from 'mongoose';
-import * as config from './config/config'
+import config = require('./config/config')
 
 const app = express();
 
@@ -8,5 +8,5 @@ const app = express();
 
 
 app.listen(3000, () => {
-  console.log(`Big Brother is listening on localhost:3000`);
+  console.log(`Server is listening on ${3000}`);
 });
