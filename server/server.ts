@@ -10,7 +10,7 @@ app.get(/\/client.{0,}\/+html/, (req, res, next) => {
 });
 
 //Routes config
-app.use(require('body-paser')());
+app.use(require('body-parser')());
 app.use('/client', express.static('client'));
 app.use('/bower_components', express.static('bower_components'));
 
@@ -19,7 +19,7 @@ app.get('/', (req, res, next) => {
   res.sendFile(config.client + '/shared/index.html');
 });
 
-app.use('/api/v1/list', require ('./api/todo/routes'));
+app.use('/api/v1/list', require ('/api/todo/routes'));
 
 //if path starts/client, /bower_components or /api send a 404
 app.get(/\/(client|bower_components|api.{0,}/, (req, res, next) => {
