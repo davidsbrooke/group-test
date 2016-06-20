@@ -1,11 +1,14 @@
 {
   "name": "gitexample",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node_modules/.bin/tsc && node ./server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+
+    "start": "node ./server/server",
+    "test": "mocha --timeout 90 --reporter spec --recursive ./**/*.spec.js",
+    "devstart": "open \"http://localhost:3000\" && nodemon ./server/server -w server"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +17,15 @@
     "angular-resource": "^1.5.7",
     "express": "^4.14.0",
     "mongoose": "^4.5.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidsbrooke/group-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidsbrooke/group-test/issues"
+  },
+  "homepage": "https://github.com/davidsbrooke/group-test#readme",
+  "description": ""
 }

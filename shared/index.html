@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html ng-app="app">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <title>To do list</title>
-  </head>
-  <body>
-    <ui-view></ui-view>
-    <h1>this should work!</h1>
-    <!-- angular -->
-    
+    <title>ToDoListApp</title>
+    <base href="/" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
 
-  </body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href="/shared/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/shared/css/style.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+    <script src="/bower_components/angular/angular.min.js"></script>
+    <script src="/bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+    <script src="/client/app/todolist/app.module.js"></script>
+
+    <script src="/client/app/todolist/app.service.js"></script>
+
+    <script src="/client/app/todolist/app.controller.js"></script>
+
+
+</body>
+
 </html>
